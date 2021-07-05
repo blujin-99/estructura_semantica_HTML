@@ -1,0 +1,71 @@
+body{
+    overflow: auto;
+}
+header {
+    background-color: rgb(138, 43, 226);
+    width: 1308px;
+    height: 90px ;
+    padding-left: 58px;
+margin-left: -8px ;
+margin-top: -21px;
+box-shadow: 10px 5px 5px rgb(68, 67, 67);
+}
+.empresa{
+    position: relative;
+    left: -10px;
+    top: 14px;
+}
+/*nav{
+    color: rgb(35, 13, 56);
+margin-left: 300px;
+margin-top: -40px;
+}*/
+.navegador{
+    
+    margin-left: 380px;
+    margin-top: -40px;
+}
+li{
+    float: left;
+    list-style-type: none;
+}
+li a:hover{
+background-color: rgb(35, 4, 37);
+}
+li a{
+    display: inline;
+    padding: 30px 20px 44px 20px;
+}
+
+.banner{
+    width: 1362px;
+    height: 400px;
+    margin-left: -8px;
+    border: 2px solid rgb(6, 6, 7);
+    animation-name: banner;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+background-size: 100% 100%;
+}
+   /*establecemos las paradas de la animación*/
+   @keyframes banner{
+    0%,30% {
+        background-image: url(estilos/mendoza_aconcahua.jpg);
+        opacity: 1;
+    }
+    31%,34%{
+        opacity: 0.1;
+    }
+    35%,65%{
+background-image: url(estilos/tanti-el-durazno.jpg);
+opacity: 1;
+    }
+    66%,69%{
+        opacity: 0.1;
+    }
+    70%, 100%{
+        background-image: url(estilos/cata_igua_misiones.jpg);
+        opacity: 1;
+    }
+   }
