@@ -1,19 +1,25 @@
 body{
     overflow: auto;
+    background-color: rgb(182, 200, 233);
 }
 header {
-    background-color: rgb(138, 43, 226);
-    width: 1308px;
-    height: 90px ;
+    position:fixed;
+    background-color: rgb(30, 7, 165);
+    width: 1300px;
+    height: 80px ;
     padding-left: 58px;
 margin-left: -8px ;
 margin-top: -21px;
-box-shadow: 10px 5px 5px rgb(68, 67, 67);
+z-index:999;
+}
+
+header h1{
+    font-style: italic;
 }
 .empresa{
-    position: relative;
-    left: -10px;
-    top: 14px;
+   margin-right: 50px;
+   width: 260px;
+   color: white;
 }
 /*nav{
     color: rgb(35, 13, 56);
@@ -22,30 +28,36 @@ margin-top: -40px;
 }*/
 .navegador{
     
-    margin-left: 380px;
+    margin-left: 300px;
     margin-top: -40px;
 }
-li{
+.nav1{
     float: left;
     list-style-type: none;
+    /*border: 1px solid rgb(2, 18, 61);*/
+    padding: 10px 20px 31px 10px;
+    position: relative;
+    top:-30px;
+    background-color: rgb(25, 9, 252);
 }
-li a:hover{
-background-color: rgb(35, 4, 37);
-}
-li a{
+.nav1 a{
+    color:white;
     display: inline;
-    padding: 30px 20px 44px 20px;
 }
-
+.nav1:hover{
+    background-color: rgb(77, 165, 238);
+}
 .banner{
-    width: 1362px;
-    height: 400px;
+    width: 1384px;
+    height: 500px;
+    margin-top: -18px;
     margin-left: -8px;
     border: 2px solid rgb(6, 6, 7);
     animation-name: banner;
     animation-duration: 15s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    box-shadow: 8px 10px 10px rgb(126, 125, 125);
 background-size: 100% 100%;
 }
    /*establecemos las paradas de la animación*/
@@ -69,3 +81,29 @@ opacity: 1;
         opacity: 1;
     }
    }
+   #titulo-medio{
+       text-align: center;  
+   }
+   #provincia{
+       text-align: center;
+       font-style: oblique;
+   }
+   .lugares{
+    list-style-type: none;
+    position: relative;
+    left: 50px;
+   }
+   .pos{
+       display: inline;
+       margin-left: 50px;
+   }
+.option-img{
+width: 220px;
+height: 200px;
+border-radius: 10px;
+box-shadow: 10px 10px 10px gray;
+}
+#pie{
+    background-color: black;
+width: 1000px;
+}

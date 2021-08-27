@@ -1,0 +1,21 @@
+.tabla{
+   
+    margin: 50px 50px 30px;
+width: 400px;
+height: 400px;
+}
+td{
+    padding: 10px 10px 10px 10px ;
+    border: solid 1px ;
+    border-color:black;
+    background-color: cadetblue;
+    color: rgb(50, 8, 90);
+}
+.listado{
+   margin-left: 30px;
+}
+
+footer{
+    background-color: rgb(83, 83, 185);
+    padding:100px 100px 100px 100px
+}
