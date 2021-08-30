@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
 body{
     overflow: auto;
     background-color: rgb(182, 200, 233);
@@ -15,6 +16,7 @@ z-index:999;
 
 header h1{
     font-style: italic;
+    text-shadow: 5px 5px 5px rgb(73, 72, 70);
 }
 .empresa{
    margin-right: 50px;
@@ -43,13 +45,14 @@ margin-top: -40px;
 .nav1 a{
     color:white;
     display: inline;
+    text-decoration: none;
 }
 .nav1:hover{
     background-color: rgb(77, 165, 238);
 }
 .banner{
     width: 1384px;
-    height: 500px;
+    height: 600px;
     margin-top: -18px;
     margin-left: -8px;
     border: 2px solid rgb(6, 6, 7);
@@ -70,23 +73,26 @@ background-size: 100% 100%;
         opacity: 0.1;
     }
     35%,65%{
-background-image: url(estilos/tanti-el-durazno.jpg);
+background-image: url(estilos/canale-grande-venecia-gondola-summer-31303211.jpg);
 opacity: 1;
     }
     66%,69%{
         opacity: 0.1;
     }
     70%, 100%{
-        background-image: url(estilos/cata_igua_misiones.jpg);
+        background-image: url(estilos/london-bus-25906109.jpg);
         opacity: 1;
     }
    }
    #titulo-medio{
        text-align: center;  
+       font-family: 'Noto Serif', serif;
+       color: rgb(13, 6, 114);
    }
-   #provincia{
+   h2{
        text-align: center;
-       font-style: oblique;
+       font-family: 'Noto Serif', serif;
+       color: rgb(13, 6, 114);
    }
    .lugares{
     list-style-type: none;
@@ -104,6 +110,46 @@ border-radius: 10px;
 box-shadow: 10px 10px 10px gray;
 }
 #pie{
-    background-color: black;
-width: 1000px;
+    background-color: rgb(5, 6, 7);
+width: 1380px;
+height: 300px;
+outline:17px solid rgb(7, 10, 12);
+}
+.contacto,h3{
+position: relative;
+left: 20px;
+color: rgb(245, 242, 231);
+}
+.contactos,li{
+    list-style: none;
+    margin-bottom: 20px;
+    color: rgb(245, 242, 231);
+}
+.contactos,img{
+    position: relative;
+    top: 10px;
+}
+.viajes{
+    position: relative;
+    left: 150px;
+    text-align: center;
+    width: 1000px;
+}
+.viajes,tr,th,td{
+    border: 2px solid rgb(108, 113, 121);
+    border-collapse: collapse; 
+    height: 50px;
+}
+th{
+    background-color: rgb(250, 245, 226);
+}
+td{
+    background-color: rgb(77, 174, 238);
+}
+.viajes a{
+    text-decoration: none;
+    background-color: rgb(9, 138, 30);
+    color: rgb(250, 245, 226);
+    width: 20px;
+    border-radius: 5px;
 }
